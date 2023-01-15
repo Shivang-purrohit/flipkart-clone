@@ -1,0 +1,116 @@
+.filterbg{
+  background-color: #f1f3f6;
+  
+}
+
+.bgColor {
+  background-color: #2874f0;
+}
+
+.navCompo {
+  position: relative;
+  left: 24rem;
+
+  }
+
+  .space {
+    position: relative;
+    right: 2rem;
+    }
+    
+    .main-icon{
+      position: relative;
+      right: 10rem;
+      bottom: 8px;
+    }
+
+  .sub-nav {
+    font-size: 11px;
+    font-style: italic;
+   
+}
+
+.sub-nav1 {
+  position: relative;
+  top: 10px;
+  left: -101px;
+  color:white ;
+}
+
+ .sub-nav2{
+   color: #ffe500;
+    font-weight: 500;
+    margin-right: 2px;
+    position: relative;
+    top: 10px;
+    left: -100px;
+}
+.sub-nav-icon {
+ 
+ position: relative;
+  top: 9px;
+  left: -175px;
+}
+
+.become {
+  position: absolute;
+  left: -5rem;
+  bottom: -8px;
+  
+}
+.move {
+  position: relative;
+  top: 8px;
+}
+
+
+
+.nav-move{
+  position: relative;
+  left: 20rem;
+}
+
+.color1 {
+ line-height: 24px;
+ font-size: 16px;
+ letter-spacing: .1px;
+ font-weight: 500;
+ color: #fff;
+}
+
+.navLoginbtn{
+  position: relative;
+  right: 14rem;
+  top: 0.3rem;
+  color: #2874f0;
+  font-weight: 500;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 2px;
+  height: 32px;
+  padding: 3px 40px;
+  border: 1px solid #dbdbdb;
+}
+
+.width-search{
+  width: 35rem;
+  height: 36px;
+  border: 0;
+  border-radius: 2px 0 0 2px;
+  position: relative;
+  left: -175px;
+  padding: 0 16px;
+  font-size: 14px;
+}
+
+.search-icon {
+  position: relative;
+  right: 13rem;
+  top: 0.7rem;
+  color: #2874f0;
+}
+
+.cart-icon{
+  padding: 5px;
+}
+

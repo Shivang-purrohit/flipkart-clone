@@ -1,0 +1,42 @@
+.container {
+    padding: 0;
+    margin: 0; 
+    display: flex;
+    height: 1000px;
+    padding-top: 1rem;
+    margin-left: 5rem;
+    
+}
+
+.container > div{
+    border: 1px solid white;
+    background-color: white;
+    /* margin-right: 5px;
+    margin-left: 1rem; */
+
+}
+
+
+.section__1 {
+   
+    width: 400px ;
+    margin-left: -4rem; 
+    margin-right: -4rem;
+    
+}
+
+.section__2 {
+    
+   width: 2000px;
+   position: relative;
+   left: 10rem;
+   margin-left: -5rem; 
+   
+
+
+}
+
+
+.low__high{
+    padding-top: 1rem;
+}

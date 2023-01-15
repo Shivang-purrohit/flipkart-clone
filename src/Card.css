@@ -1,0 +1,47 @@
+.card > .card__image > img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.card {
+    border: none;
+    padding: 1rem;
+}
+
+.card__heart {
+    position: relative;
+    left: 10rem;
+    color: lightgray;
+}
+
+.card__details > p {
+    padding: 0;
+    margin: 0;
+}
+
+.card__details > .title {
+    font-weight: 600;
+    font-size: 17px;
+    color:#878787
+}
+
+.card__details > p {
+    font-size: 14px;
+}
+
+.card__details > .span1 {
+    font-weight: bold;
+}
+.card__details > .span2 {
+    color: gray;
+    padding-left: 7px;
+    text-decoration: line-through;
+}
+.card__details > .span3 {
+  padding-left: 7px;
+  color: #388e3c;
+  font-size: 14px;
+  font-weight: 500;
+}
+
