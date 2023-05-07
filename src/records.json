@@ -134,6 +134,39 @@
     "discountPercent": 50,
     "quantity": 1
     
+  },
+  {
+    "name": "Mulberry Silk Cotton Fabric",
+    
+    
+    "image":"https://cdn.shopify.com/s/files/1/0155/8131/products/0Q8A4776_480x.jpg?v=1671092552",
+   "price":2000,
+   "mainPrice":1000,
+    "discountPercent": 50,
+    "quantity": 1
+    
+  },
+  {
+    "name": "Mulberry Silk Cotton Fabric",
+    
+    
+    "image":"https://cdn.shopify.com/s/files/1/0155/8131/products/3E9A9370_ca24824e-3196-483c-91c2-99d145d42abe_480x.jpg?v=1665577664",
+   "price":25000,
+   "mainPrice":1200,
+    "discountPercent": 60,
+    "quantity": 1
+    
+  },
+  {
+    "name": "Mulberry Silk Cotton Fabric",
+    
+    
+    "image":"https://cdn.shopify.com/s/files/1/0155/8131/products/3E9A9361_59d54e86-d80a-47f9-a886-18cb4d957aa8_480x.jpg?v=1683023795",
+   "price":1800,
+   "mainPrice":900,
+    "discountPercent": 40,
+    "quantity": 1
+    
   }
  
 ]
