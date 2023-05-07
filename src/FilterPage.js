@@ -51,12 +51,14 @@
   return (
     <div className='container'>
       <div className='section__1'>
-        <div>
-          <p>Filters</p>
+        <div >
+          <p className='filters' >Filters</p>
          
         </div>
         <div >
+          
           <div class='form-check low__high'>
+          <p className='price'>Price</p>
             <input
               className='form-check-input'
               type='radio'

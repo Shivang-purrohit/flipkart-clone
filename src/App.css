@@ -1,4 +1,7 @@
-
+body{
+  overflow-x: hidden;
+  
+}
 .web__name{
   color: #dbdbdb;
   font-family: 'Bebas Neue', cursive;
@@ -132,3 +135,19 @@ font-family: 'Righteous', cursive;
  border: #330099;
 }
 
+.filters{
+  font-size: medium;
+  font-weight: 500;
+  margin: 0.5rem;
+  padding: 10px;
+  border-bottom: 1px solid #330099;
+}
+
+.price{
+  font-size: medium;
+  font-weight: 400;
+  position: relative;
+  right: 14px;
+ 
+
+}

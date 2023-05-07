@@ -39,7 +39,7 @@ export const Navbar = () => {
 
         <li className="nav-item navCompo">
         <a className="nav-link become  color1 space " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-           About artisans
+           About Artisans
           </a>
           
         </li>
