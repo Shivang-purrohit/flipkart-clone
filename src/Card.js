@@ -1,6 +1,7 @@
 import React from 'react'
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import './Card.css'
+import Button from './Button';
 
 const Card = ({name, mainPrice, brand, image , price,discountPercent, quantity, gender, sizes} ) => {
   return (
@@ -20,7 +21,8 @@ const Card = ({name, mainPrice, brand, image , price,discountPercent, quantity, 
     <span className='span3'>{discountPercent}% off</span>
 </div>
 <div className="card__size">
-<p>Size <span>{sizes}</span> {gender}</p>
+<p><Button/></p>
+
 </div>
 
     </div>

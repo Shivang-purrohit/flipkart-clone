@@ -18,14 +18,14 @@ const LoginTippy = () => {
          <AccountCircleIcon />
          <p>My Profile</p>
         </div><hr />
-        <div className='logint__in'>
+        {/* <div className='logint__in'>
         <img
           width="20"
           src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/plus_b13a8b.png"
           alt=""
         />
         <p>Flipkart Plus</p>
-        </div><hr />
+        </div><hr /> */}
         <div className='logint__in'>
         <StoreIcon/>
         <p>Orders</p>

@@ -95,7 +95,7 @@
            </label>
            </div>
 
-           <div class='form-check low__high'>
+           {/* <div class='form-check low__high'>
              <input
                class='form-check-input'
                type='radio'
@@ -107,9 +107,9 @@
                    type: 'Size_change',
                    payload: e.target.value,
                 });
-              }}
-            />
-            <label class='form-check-label' htmlFor='exampleRadios1'>
+              }} 
+            />*/}
+            {/* <label class='form-check-label' htmlFor='exampleRadios1'>
               L
             </label>
           </div>
@@ -147,7 +147,7 @@
              <label class='form-check-label' htmlFor='exampleRadios2'>
                XL
             </label>
-          </div>
+          </div> */}
 
           
 
@@ -156,7 +156,7 @@
 <div className='low__high'>
            {uniqueBrands.map((brand)=>{
              return <div class='form-check '>
-             <input
+             {/* <input
              class='form-check-input'
               type='radio'
               name='brand'
@@ -168,7 +168,7 @@
                    payload: e.target.value,
                 });
               }}
-             />
+             /> */}
              <label class='form-check-label' htmlFor='exampleRadios2'>
                {brand}
              </label>

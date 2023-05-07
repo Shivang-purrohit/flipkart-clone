@@ -1,10 +1,22 @@
+
+.web__name{
+  color: #dbdbdb;
+  font-family: 'Bebas Neue', cursive;
+font-family: 'Fascinate', cursive;
+font-family: 'Kdam Thmor Pro', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Righteous', cursive;
+}
+
 .filterbg{
   background-color: #f1f3f6;
   
 }
 
 .bgColor {
-  background-color: #2874f0;
+  background-color: #4B0082
 }
 
 .navCompo {
@@ -82,7 +94,7 @@
   position: relative;
   right: 14rem;
   top: 0.3rem;
-  color: #2874f0;
+  color: #4B0082;
   font-weight: 500;
   background-color: #fff;
   cursor: pointer;
@@ -112,5 +124,11 @@
 
 .cart-icon{
   padding: 5px;
+}
+
+
+.button_add{
+ background-color: #4B0082;
+ border: #4B0082;
 }
 
