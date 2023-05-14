@@ -5,6 +5,8 @@ import 'tippy.js/dist/tippy.css'
 import 'tippy.js/themes/light.css'
 import MoreTippy from './MoreTippy';
 import LoginTippy from './LoginTippy';
+import { Link } from 'react-router-dom';
+
 
 
 export const Navbar = () => {
@@ -58,7 +60,9 @@ export const Navbar = () => {
            </Tippy>
         </li>
         <li className="nav-item navCompo">
-          <a className="nav-link color1" href="#"><i class="fa-solid cart-icon fa-cart-shopping"></i>Cart</a>
+        
+          <Link to='#s' className="nav-link color1"><i class="fa-solid cart-icon fa-cart-shopping"></i>Cart</Link>
+         
         </li>
         
       </ul>
