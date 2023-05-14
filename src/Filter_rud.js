@@ -7,10 +7,10 @@ const Filter_rud = (state, action) => {
                 ...state,
                 sort:action.payload
             }
-            case "Size_change" :
+            case "Material_select" :
                 return {
                     ...state,
-                    size:action.payload
+                    Material:action.payload
                 }
                 case "brand" :
                     return {

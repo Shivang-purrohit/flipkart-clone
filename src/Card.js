@@ -3,7 +3,7 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import './Card.css'
 import Button from './Button';
 
-const Card = ({name, mainPrice, brand, image , price,discountPercent, quantity, gender, sizes} ) => {
+const Card = ({name, mainPrice, brand, image , price,discountPercent, quantity, gender, Material} ) => {
   return (
     <div className='card'>
        <div className="card__heart">
@@ -18,7 +18,12 @@ const Card = ({name, mainPrice, brand, image , price,discountPercent, quantity, 
    
     <span className='span1'>₹{mainPrice}</span>
     <span className='span2'>₹{price}</span>
+    
     <span className='span3'>{discountPercent}% off</span>
+   <div>
+   <span className='span4'>Material : {Material}</span>
+   </div>
+    
 </div>
 <div className="card__size">
 <p><Button/></p>

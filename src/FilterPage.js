@@ -6,7 +6,7 @@
 
  const FilterPage = () => {
   const {
-    filter: { sort, size, brand,  },
+    filter: { sort, Material, brand,  },
     dis_fill,
   } = Use_r_state();
 
@@ -17,7 +17,7 @@
     return (newVal = ['All', ...new Set(newVal)]);
     /*   console.log(newVal) */
   };
-  const genderData = getUniqueData(Records, 'sizes');
+  const genderData = getUniqueData(Records, 'Material');
 
   const Filltred_product = (Records) => {
     let newproduct = Records;
@@ -26,10 +26,10 @@
         return sort === 'low' ? a.price - b.price : b.price - a.price;
       });
     }
-    if (size) {
-      newproduct = newproduct.filter((curElem) => {
-        return curElem.sizes.includes(size);
-      });
+    if (Material) {
+      newproduct = newproduct.filter((curElem) => 
+         curElem.Material === Material); 
+    
     }
     if(brand){
       newproduct = newproduct.filter((curElem) => curElem.brand === brand);
@@ -38,10 +38,10 @@
 
     return newproduct;
   };
-
+const allMaterial = Records.map((record) => record.Material)
   const allBrands = Records.map((record) => record.brand);
   const uniqueBrands = [...new Set(allBrands)];
-
+const uniqueMaterial = [...new Set(allMaterial)]
 
   const filteredProducts = Filltred_product(Records) ?? [];
 
@@ -97,23 +97,28 @@
            </label>
            </div>
 
-           {/* <div class='form-check low__high'>
+           {/* <div className='low__high'>
+           {uniqueMaterial.map((Material)=>{
+             return <div class='form-check  '> */}
+
+            {/* <div class='form-check low__high'>
              <input
                class='form-check-input'
                type='radio'
                name='exampleRadios'
                id='exampleRadios1'
-               value='L'
+               value='Cotton'
               onChange={(e) => {
                  dis_fill({
-                   type: 'Size_change',
+                   type: 'Material_select',
                    payload: e.target.value,
                 });
               }} 
-            />*/}
-            {/* <label class='form-check-label' htmlFor='exampleRadios1'>
-              L
-            </label>
+            />
+            
+            { <label class='form-check-label' htmlFor='exampleRadios1'>
+              Cotton
+            </label> }
           </div>
            <div class='form-check'>
              <input
@@ -121,25 +126,26 @@
                type='radio'
                name='exampleRadios'
                id='exampleRadios1'
-               value='S'
+               value='Silk'
                onChange={(e) => {
                  dis_fill({
-                 type: 'Size_change',
+                 type: 'Material_select',
                   payload: e.target.value,
                 });
+                
               }}
             />
             <label class='form-check-label' htmlFor='exampleRadios1'>
-              S
+              Silk
              </label>
            </div>
-          <div class='form-check'>
+          {/* <div class='form-check'>
              <input
                class='form-check-input'
                type='radio'
               name='exampleRadios'
                id='exampleRadios2'
-               value='XL'
+               value='xyz'
                onChange={(e) => {                 dis_fill({
                    type: 'Size_change',
                    payload: e.target.value,
@@ -149,7 +155,36 @@
              <label class='form-check-label' htmlFor='exampleRadios2'>
                XL
             </label>
-          </div> */}
+          </div>  */}
+
+ 
+ 
+ 
+
+<div className='low__high'>
+<p className='typeoffabric'>Type of Fabric</p>
+           {uniqueMaterial.map((Material)=>{
+             return <div className='form-check '>
+             { <input
+             class='form-check-input'
+             
+              type='radio'
+              name='Material'
+              id='Material'
+               value={Material}
+               onChange={(e) => {
+                 dis_fill({
+                   type: 'Material_select',
+                   payload: e.target.value,
+                });
+              }}
+             /> }
+             <label class='form-check-label' htmlFor='exampleRadios3'>
+               {Material}
+             </label>
+           </div>
+         })}
+         </div>
 
           
 
@@ -158,7 +193,7 @@
 <div className='low__high'>
            {uniqueBrands.map((brand)=>{
              return <div class='form-check '>
-             {/* <input
+             {/* { <input
              class='form-check-input'
               type='radio'
               name='brand'
@@ -170,7 +205,7 @@
                    payload: e.target.value,
                 });
               }}
-             /> */}
+             /> } */}
              <label class='form-check-label' htmlFor='exampleRadios2'>
                {brand}
              </label>
@@ -193,7 +228,7 @@
                  mainPrice={record.mainPrice}
                  discountPercent={record.discountPercent}
                  quantity={record.quantity}
-                  sizes={record.sizes}
+                  Material={record.Material}
                   gender={record.gender}
                />
               );

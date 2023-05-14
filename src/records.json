@@ -7,7 +7,8 @@
     "price":1000,
     "mainPrice":400,
     "discountPercent": 55,
-    "quantity": 1
+    "quantity": 1,
+    "Material": "Cotton"
     
   },
   {
@@ -18,8 +19,8 @@
    "price":1000,
    "mainPrice":500,
    "discountPercent": 51,
-   "quantity": 1
-   
+   "quantity": 1,
+   "Material": "Cotton"
   },
 
   {
@@ -30,7 +31,8 @@
     "price":1000,
     "mainPrice":450,
    "discountPercent": 30,
-    "quantity": 1
+    "quantity": 1,
+    "Material": "Cotton"
   
   },
   {
@@ -41,7 +43,8 @@
     "price":1000,
     "mainPrice":700,
    "discountPercent": 73,
-    "quantity": 1
+    "quantity": 1,
+    "Material": "Cotton"
    
   },
   
@@ -53,7 +56,8 @@
     "price":1000,
     "mainPrice":800,
    "discountPercent": 30,
-    "quantity": 1
+    "quantity": 1,
+    "Material": "Cotton"
     
   },
   {
@@ -64,7 +68,8 @@
    "price":1000,
    "mainPrice":800,
     "discountPercent": 50,
-    "quantity": 1
+    "quantity": 1,
+    "Material": "Cotton"
     
   },
     {
@@ -75,7 +80,8 @@
     "price":1000,
     "mainPrice":650,
    "discountPercent": 55,
-    "quantity": 1
+    "quantity": 1,
+    "Material": "Cotton"
     
   },
     
@@ -88,7 +94,8 @@
     "price":1000,
     "mainPrice":750,
     "discountPercent": 30,
-    "quantity": 1
+    "quantity": 1,
+    "Material": "Cotton"
     
   },
   {
@@ -99,7 +106,8 @@
    "price":3000,
    "mainPrice":1000,
     "discountPercent": 50,
-    "quantity": 1
+    "quantity": 1,
+    "Material": "Cotton"
     
   },
   {
@@ -110,7 +118,8 @@
    "price":1000,
    "mainPrice":500,
     "discountPercent": 50,
-    "quantity": 1
+    "quantity": 1,
+    "Material": "Cotton"
     
   },
   {
@@ -121,7 +130,8 @@
    "price":1000,
    "mainPrice":600,
     "discountPercent": 50,
-    "quantity": 1
+    "quantity": 1,
+    "Material": "Cotton"
 
   },
   {
@@ -132,7 +142,8 @@
    "price":1000,
    "mainPrice":500,
     "discountPercent": 50,
-    "quantity": 1
+    "quantity": 1,
+    "Material": "Cotton"
     
   },
   {
@@ -143,7 +154,8 @@
    "price":2000,
    "mainPrice":1000,
     "discountPercent": 50,
-    "quantity": 1
+    "quantity": 1,
+    "Material": "Cotton"
     
   },
   {
@@ -154,8 +166,9 @@
    "price":25000,
    "mainPrice":1200,
     "discountPercent": 60,
-    "quantity": 1
-    
+    "quantity": 1,
+    "Material": "Cotton"
+
   },
   {
     "name": "Mulberry Silk Cotton Fabric",
@@ -165,8 +178,122 @@
    "price":1800,
    "mainPrice":900,
     "discountPercent": 40,
-    "quantity": 1
+    "quantity": 1,
+    "Material": "Cotton"
+    
+  },
+
+  {
+    "name": "Phulkari Embroidered Fabric",
+    
+    
+    "image":"https://cdn.shopify.com/s/files/1/0155/8131/files/Q8A0545_908b3059-80fc-4e1c-85c3-bfc888ed5fa8_480x.jpg?v=1683807297",
+   "price":1000,
+   "mainPrice":600,
+    "discountPercent": 40,
+    "quantity": 1,
+    "Material": "Silk"
+    
+  },
+  {
+    "name": "Phulkari Embroidered Fabric",
+    
+    
+    "image":"https://cdn.shopify.com/s/files/1/0155/8131/files/Q8A0544_7d0bfd0b-94e7-4bf0-8e41-50bd94dec5b9_480x.jpg?v=1683807060",
+   "price":1000,
+   "mainPrice":600,
+    "discountPercent": 40,
+    "quantity": 1,
+    "Material": "Silk"
+    
+  },
+  {
+    "name": "Phulkari Embroidered Fabric",
+    
+    
+    "image":"https://cdn.shopify.com/s/files/1/0155/8131/files/Q8A0543_fba5e1bb-2250-4498-ac53-7315ffbad6c1_480x.jpg?v=1683807115",
+   "price":1000,
+   "mainPrice":600,
+    "discountPercent": 40,
+    "quantity": 1,
+    "Material": "Silk"
+    
+  },
+  {
+    "name": "Phulkari Embroidered Fabric",
+    
+    
+    "image":"https://cdn.shopify.com/s/files/1/0155/8131/files/Q8A0541_4c3ba901-adea-4633-801f-4e52fc496a61_480x.jpg?v=1683807402",
+   "price":100,
+   "mainPrice":600,
+    "discountPercent": 40,
+    "quantity": 1,
+    "Material": "Silk"
+    
+  },
+  {
+    "name": "Bhagalpuri Handloom Linen Fabric",
+    
+    
+    "image":"https://cdn.shopify.com/s/files/1/0155/8131/files/Q8A9984_159fa454-da39-4cb9-83d5-91314ee12af4_480x.jpg?v=1683549751",
+   "price":100,
+   "mainPrice":600,
+    "discountPercent": 40,
+    "quantity": 1,
+    "Material": "Linen"
+    
+  },
+  {
+    "name": "Bhagalpuri Handloom Linen Fabric",
+    
+    
+    "image":"https://cdn.shopify.com/s/files/1/0155/8131/files/Q8A9968_250b2815-958e-479d-96ac-08cda597880e_480x.jpg?v=1683549727",
+   "price":100,
+   "mainPrice":600,
+    "discountPercent": 40,
+    "quantity": 1,
+    "Material": "Linen"
+    
+  },
+  {
+    "name": "Bhagalpuri Handloom Linen Fabric",
+    
+    
+    "image":"https://cdn.shopify.com/s/files/1/0155/8131/files/Q8A9975_a49ebc0d-686a-4329-b4fd-1a0eee316019_480x.jpg?v=1683549737",
+   "price":100,
+   "mainPrice":600,
+    "discountPercent": 40,
+    "quantity": 1,
+    "Material": "Linen"
+    
+  },
+  {
+    "name": "Bhagalpuri Handloom Linen Fabric",
+    
+    
+    "image":"https://cdn.shopify.com/s/files/1/0155/8131/files/Q8A9976_983f23ae-5bb4-4478-ac36-e48720017a30_480x.jpg?v=1683549741",
+   "price":100,
+   "mainPrice":600,
+    "discountPercent": 40,
+    "quantity": 1,
+    "Material": "Linen"
+    
+  },
+  {
+    "name": "Bhagalpuri Handloom Linen Fabric",
+    
+    
+    "image":"https://cdn.shopify.com/s/files/1/0155/8131/files/Q8A9980_26b6fd97-195e-479c-a9c7-f36f07b1f395_480x.jpg?v=1683549746",
+   "price":100,
+   "mainPrice":600,
+    "discountPercent": 40,
+    "quantity": 1,
+    "Material": "Linen"
     
   }
+  
+
+
+
  
 ]

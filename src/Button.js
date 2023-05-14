@@ -5,7 +5,8 @@ const Button = () => {
     alert("Added to Cart")
   }
   return (
-    <button type="button" onClick={alertMsg} class="btn btn-primary button_add">Add to Cart</button>
+    <button type="button" onClick={alertMsg} class="btn btn-primary button_add">Add to Cart
+    </button>
   )
 }
 

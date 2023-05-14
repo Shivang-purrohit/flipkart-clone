@@ -9,7 +9,7 @@ const Store = ({children}) => {
     const [product, dis] = useReducer(Reducer, initialstate);
     const [filter, dis_fill] = useReducer(Filter_rud,{
         sort:null,
-        size:null,
+        Material:null,
         brand:null,
         clear:null
     })
